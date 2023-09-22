@@ -2,7 +2,7 @@
 Tarea 1: Python  19 de agosto de 2022
 ## 1. Pixelart
 Un jugador de Minecraft amante del pixelart, un dıa buscando creaciones de otros jugadores, se encontro con un sitio web que aseguraba tener diseños que nunca antes habıa visto, con instrucciones muy detalladas de como construirlos; sin embargo, este sitio no contaba con imagenes para saber como se ven los resultados de seguir esas instrucciones!
-### Code 1: Ejemplo de instrucciones
+#### Code 1: Ejemplo de instrucciones
 ~~~
 Ancho 8
 Color de fondo RGB(13,181,13)
