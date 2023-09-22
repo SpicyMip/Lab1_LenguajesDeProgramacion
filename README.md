@@ -3,47 +3,48 @@ Tarea 1: Python  19 de agosto de 2022
 ## 1. Pixelart
 Un jugador de Minecraft amante del pixelart, un dıa buscando creaciones de otros jugadores, se encontro con un sitio web que aseguraba tener diseños que nunca antes habıa visto, con instrucciones muy detalladas de como construirlos; sin embargo, este sitio no contaba con imagenes para saber como se ven los resultados de seguir esas instrucciones!
 ## Code 1: Ejemplo de instrucciones
-1 Ancho 8
+~~~
+Ancho 8
 
-2 Color de fondo RGB(13,181,13)
+Color de fondo RGB(13,181,13)
 
-3
 
-4 Avanzar Derecha Avanzar 2
+Avanzar Derecha Avanzar 2
 
-5 Pintar Negro Avanzar
+Pintar Negro Avanzar
 
-6 Repetir 2 veces { Pintar Negro Izquierda Avanzar }
+Repetir 2 veces { Pintar Negro Izquierda Avanzar }
 
-7 Pintar Negro
+Pintar Negro
 
-8 Derecha Avanzar 3
+Derecha Avanzar 3
 
-9 Pintar Negro Avanzar
+Pintar Negro Avanzar
 
-10 Repetir 2 veces { Pintar Negro Derecha Avanzar }
+Repetir 2 veces { Pintar Negro Derecha Avanzar }
 
-11 Pintar Negro
+Pintar Negro
 
-12 Izquierda Avanzar
+Izquierda Avanzar
 
-13 Repetir 3 veces { Avanzar Pintar Negro }
+Repetir 3 veces { Avanzar Pintar Negro }
 
-14 Derecha Avanzar 3 Derecha
+Derecha Avanzar 3 Derecha
 
-15 Repetir 3 veces { Pintar Negro Avanzar }
+Repetir 3 veces { Pintar Negro Avanzar }
 
-16 Derecha Avanzar
+Derecha Avanzar
 
-17 Repetir 3 veces {
+Repetir 3 veces {
 
-18 Pintar Negro Avanzar
+Pintar Negro Avanzar
 
-19 Pintar Negro Derecha Avanzar
+Pintar Negro Derecha Avanzar
 
-20 Derecha Avanzar Derecha Derecha
+Derecha Avanzar Derecha Derecha
 
-21 }
+}
+~~~
 
 Es por lo anterior que este jugador le pidi´o a los alumnos de Lenguajes de Programacion que utilicen los contenidos del curso para crear un programa capaz de interpretar las instrucciones del sitio y producir una imagen del resultado.
 Para esta tarea se debe utilizar Python 3 y los siguientes paquetes:
