@@ -217,5 +217,5 @@ Se asignara puntaje parcial por funcionamiento parcialmente correcto.
 
 Nombre: Martin Pino Cornejo
 Rol: 202073528-k
-Instrucciones: El archivo pixekart.py debe estar en la misma carpeta que codigos.txt
+Instrucciones: El archivo pixelart.py debe estar en la misma carpeta que codigos.txt
 
