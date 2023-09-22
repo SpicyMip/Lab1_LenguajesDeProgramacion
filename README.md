@@ -68,40 +68,44 @@ Cuando un comando requiera de un Color como parametro, este podra recibir uno de
 - Blanco: Deber´a pintar de color blanco, escribiendo en la matriz de memoria la tupla (255,255,255).
 - RGB(R,G,B): Deber´a pintar del color indicado, escribiendo en la matriz de memoria la tupla (R,G,B).
   
-A continuaci´on se presenta un EBNF que describe formalmente la sintaxis que siguen las instrucciones de un programa:
-Code 2: EBNF
-1 instruccion ::= ’Izquierda’ | ’Derecha’
-2 | ’Avanzar’ [numero] | ’Pintar’ color
-3 | ’Repetir’ numero ’veces’ ’{’ {instruccion} ’}’
-4
-5 numero ::= 0 | no_zero {’0’ | no_zero}
-6
-7 no_zero ::= ’1’ | ’2’ | ’3’ | ’4’ | ’5’ | ’6’ | ’7’ | ’8’ | ’9’
-8
-9 color ::= ’Rojo’ | ’Verde’ | ’Azul’ | ’Negro’ | ’Blanco’
-10 | ’RGB(’ numero ’,’ numero ’,’ numero ’)’
-Pueden haber m´ultiples instrucciones en una l´ınea. Adicionalmente las instrucciones de tipo Repetir pueden abarcar m´ultiples lineas.
-2.4. Orden de operaciones
+A continuacion se presenta un EBNF que describe formalmente la sintaxis que siguen las instrucciones de un programa:
+
+<p align="center">Code 2: EBNF</p>
+
+~~~
+instruccion ::= ’Izquierda’ | ’Derecha’
+    | ’Avanzar’ [numero] | ’Pintar’ color
+    | ’Repetir’ numero ’veces’ ’{’ {instruccion} ’}’
+
+numero ::= 0 | no_zero {’0’ | no_zero}
+
+no_zero ::= ’1’ | ’2’ | ’3’ | ’4’ | ’5’ | ’6’ | ’7’ | ’8’ | ’9’
+
+color ::= ’Rojo’ | ’Verde’ | ’Azul’ | ’Negro’ | ’Blanco’
+    | ’RGB(’ numero ’,’ numero ’,’ numero ’)’
+
+~~~
+
+Pueden haber multiples instrucciones en una lınea. Adicionalmente las instrucciones de tipo Repetir pueden abarcar multiples lineas.
+
+#### 2.4. Orden de operaciones
+
 Las instrucciones siempre se ejecutan de izquierda a derecha.
-3. Objetivo de la tarea
-Cada estudiante debe crear un programa el cual permita recibir una cantidad indefinida de
-l´ıneas en un archivo codigo.txt, en donde la primera l´ınea siempre indicara el tama˜no de la
-matriz que se utilizar´a, la segunda el color de fondo, la tercera ser´a una l´ınea en blanco y luego
-cada l´ınea siguiente corresponder´a a una serie de instrucciones.
-Su programa debe ser capaz interpretar el c´odigo, detectar errores de sintaxis, y detectar
-errores de ejecuci´on. Sintaxis: a partir del archivo codigo.txt, su programa debe generar un
-archivo errores.txt, donde se encontrar´an todas las l´ıneas que tengan una sintaxis incorrecta,
-indicando el numero de l´ınea en la cual se encuentra el error, en el caso que no hayan errores el
-archivo deber´a contener la frase “No hay errores!”. Int´erprete: debe producir pixelart.png y
-mostrar por consola los valores de la matriz RGB en caso de que la ejecuci´on y la revisi´on de
-sintaxis sea exitosa. Si durante la ejecuci´on las instrucciones causaran que el jugador salga del
-´area que cubre la matriz, se debe indicar por consola la l´ınea que produjo este error y terminar
-la ejecuci´on.
+
+## 3. Objetivo de la tarea
+
+Cada estudiante debe crear un programa el cual permita recibir una cantidad indefinida de lıneas en un archivo codigo.txt, en donde la primera l´ınea siempre indicara el tama˜no de la matriz que se utilizar´a, la segunda el color de fondo, la tercera ser´a una l´ınea en blanco y luego cada l´ınea siguiente corresponder´a a una serie de instrucciones.
+
+Su programa debe ser capaz interpretar el c´odigo, detectar errores de sintaxis, y detectar errores de ejecuci´on. Sintaxis: a partir del archivo codigo.txt, su programa debe generar un archivo errores.txt, donde se encontrar´an todas las l´ıneas que tengan una sintaxis incorrecta, indicando el numero de l´ınea en la cual se encuentra el error, en el caso que no hayan errores el archivo deber´a contener la frase “No hay errores!”. Int´erprete: debe producir pixelart.png y mostrar por consola los valores de la matriz RGB en caso de que la ejecuci´on y la revisi´on de sintaxis sea exitosa. Si durante la ejecuci´on las instrucciones causaran que el jugador salga del ´area que cubre la matriz, se debe indicar por consola la l´ınea que produjo este error y terminar la ejecuci´on.
+
 Para producir las im´agenes pueden utilizar el c´odigo del siguiente GitHub Gist:
-https://gist.github.com/HectorxH/13f2c125ffbbfde381aede4a8ddbadeb
-3
-3.1. Ejemplos
-3.1.1. Ejemplo 1
+
+<https://gist.github.com/HectorxH/13f2c125ffbbfde381aede4a8ddbadeb>
+
+#### 3.1. Ejemplos
+
+#### 3.1.1. Ejemplo 1
+
 Code 3: Ejemplo 1
 1 Ancho 10
 2 Color de fondo Blanco
