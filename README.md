@@ -1,4 +1,7 @@
 # INF-253 Lenguajes de Programación
+
+<p align="center">Este es un texto centrado en Markdown.</p>
+
 Tarea 1: Python  19 de agosto de 2022
 ## 1. Pixelart
 Un jugador de Minecraft amante del pixelart, un dıa buscando creaciones de otros jugadores, se encontro con un sitio web que aseguraba tener diseños que nunca antes habıa visto, con instrucciones muy detalladas de como construirlos; sin embargo, este sitio no contaba con imagenes para saber como se ven los resultados de seguir esas instrucciones!
@@ -46,29 +49,25 @@ La matriz sera de tamaño n × n, siendo n un valor que se especificara mas adel
 
 Todo archivo siempre comienza con los siguientes comandos en este orden:
 - Ancho N : Indica que la imagen ser´a de tama˜no N × N.
-- Color de fondo Color: Indica el color de fondo que tendr´a la imagen, es decir, si un bloque no es pintado entonces ser´a de este color. El formato que sigue Color se indica mas adelante.
+- Color de fondo Color: Indica el color de fondo que tendr´a la imagen, es decir, si un bloque no es pintado entonces sera de este color. El formato que sigue Color se indica mas adelante.
 
-Posterior a estos habra una lınea en blanco y luego seguiran las instrucciones, las cuales pueden ser cualquier combinaci´on de las siguientes:
+Posterior a estos habra una lınea en blanco y luego seguiran las instrucciones, las cuales pueden ser cualquier combinacion de las siguientes:
 - Izquierda: El jugador debe girar en 90° a la izquierda.
 - Derecha: El jugador debe girar en 90° a la derecha.
-- Avanzar N : El jugador debe avanzar N cuadros en la direccion en la que esta mirando. En caso de que no se entregue un numero, el jugador deber´a avanzar 1 bloque.
-- Pintar Color: El jugador debe pintar el bloque en el que se encuentra de color Color. El formato que sigue Color se indica m´as adelante.
-- Repetir N veces { Instrucciones }: El jugador debe repetir las instrucciones indicadas en Instrucciones N veces. Las instrucciones pueden ser cualquiera de las anteriormente nombradas a excepci´on de Ancho y Color de fondo. Esto significa que pueden haber instrucciones de Repetir anidadas.
-Cuando un comando requiera de un Color como par´ametro, este podr´a recibir uno de los
-siguientes valores:
-Rojo: Deber´a pintar de color rojo, escribiendo en la matriz de memoria la tupla (255,0,0).
-Verde: Deber´a pintar de color verde, escribiendo en la matriz de memoria la tupla
-(0,255,0).
-Azul: Deber´a pintar de color azul, escribiendo en la matriz de memoria la tupla (0,0,255).
-Negro: Deber´a pintar de color negro, escribiendo en la matriz de memoria la tupla
-(0,0,0).
-Blanco: Deber´a pintar de color blanco, escribiendo en la matriz de memoria la tupla
-(255,255,255).
-2
-RGB(R,G,B): Deber´a pintar del color indicado, escribiendo en la matriz de memoria la
-tupla (R,G,B).
-A continuaci´on se presenta un EBNF que describe formalmente la sintaxis que siguen las
-instrucciones de un programa:
+- Avanzar N : El jugador debe avanzar N cuadros en la direccion en la que esta mirando. En caso de que no se entregue un numero, el jugador debera avanzar 1 bloque.
+- Pintar Color: El jugador debe pintar el bloque en el que se encuentra de color Color. El formato que sigue Color se indica mas adelante.
+- Repetir N veces { Instrucciones }: El jugador debe repetir las instrucciones indicadas en Instrucciones N veces. Las instrucciones pueden ser cualquiera de las anteriormente nombradas a excepcion de Ancho y Color de fondo. Esto significa que pueden haber instrucciones de Repetir anidadas.
+
+Cuando un comando requiera de un Color como parametro, este podra recibir uno de los siguientes valores:
+
+- Rojo: Deber´a pintar de color rojo, escribiendo en la matriz de memoria la tupla (255,0,0).
+- Verde: Deber´a pintar de color verde, escribiendo en la matriz de memoria la tupla (0,255,0).
+- Azul: Deber´a pintar de color azul, escribiendo en la matriz de memoria la tupla (0,0,255).
+- Negro: Deber´a pintar de color negro, escribiendo en la matriz de memoria la tupla (0,0,0).
+- Blanco: Deber´a pintar de color blanco, escribiendo en la matriz de memoria la tupla (255,255,255).
+- RGB(R,G,B): Deber´a pintar del color indicado, escribiendo en la matriz de memoria la tupla (R,G,B).
+  
+A continuaci´on se presenta un EBNF que describe formalmente la sintaxis que siguen las instrucciones de un programa:
 Code 2: EBNF
 1 instruccion ::= ’Izquierda’ | ’Derecha’
 2 | ’Avanzar’ [numero] | ’Pintar’ color
