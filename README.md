@@ -34,33 +34,26 @@ Para esta tarea se debe utilizar Python 3 y los siguientes paquetes:
 
 ## 2. Lenguaje PixelArt (LPA)
 
-2.1. Acerca de LPA
-El Lenguaje PixelArt es un nuevo lenguaje interactivo que permite a un jugador, mediante
-una secuencia de instrucciones, producir uno de los pixelarts del sitio. Siempre se asume que el
-jugador comienza en la esquina superior izquierda apuntando hacia la derecha. El objetivo es
-simular el procedimiento que seguir´a un jugador y guardar el resultado como una matriz (lista
-de listas en Python) de valores RGB (tupla de 3 valores entre 0 y 255 en Python).
-2.2. Matriz
-La matriz ser´a de tama˜no n × n, siendo n un valor que se especificar´a m´as adelante, donde
-inicialmente todos los valores parten en un mismo color.
-2.3. Comandos
+#### 2.1. Acerca de LPA
+
+El Lenguaje PixelArt es un nuevo lenguaje interactivo que permite a un jugador, mediante una secuencia de instrucciones, producir uno de los pixelarts del sitio. Siempre se asume que el jugador comienza en la esquina superior izquierda apuntando hacia la derecha. El objetivo es simular el procedimiento que seguira un jugador y guardar el resultado como una matriz (lista de listas en Python) de valores RGB (tupla de 3 valores entre 0 y 255 en Python).
+
+#### 2.2. Matriz
+
+La matriz sera de tamaño n × n, siendo n un valor que se especificara mas adelante, donde inicialmente todos los valores parten en un mismo color.
+
+#### 2.3. Comandos
+
 Todo archivo siempre comienza con los siguientes comandos en este orden:
-Ancho N : Indica que la imagen ser´a de tama˜no N × N.
-Color de fondo Color: Indica el color de fondo que tendr´a la imagen, es decir, si un
-bloque no es pintado entonces ser´a de este color. El formato que sigue Color se indica m´as
-adelante.
-Posterior a estos habr´a una l´ınea en blanco y luego seguir´an las instrucciones, las cuales
-pueden ser cualquier combinaci´on de las siguientes:
-Izquierda: El jugador debe girar en 90° a la izquierda.
-Derecha: El jugador debe girar en 90° a la derecha.
-Avanzar N : El jugador debe avanzar N cuadros en la direcci´on en la que esta mirando.
-En caso de que no se entregue un numero, el jugador deber´a avanzar 1 bloque.
-Pintar Color: El jugador debe pintar el bloque en el que se encuentra de color Color. El
-formato que sigue Color se indica m´as adelante.
-Repetir N veces { Instrucciones }: El jugador debe repetir las instrucciones indicadas
-en Instrucciones N veces. Las instrucciones pueden ser cualquiera de las anteriormente
-nombradas a excepci´on de Ancho y Color de fondo. Esto significa que pueden haber
-instrucciones de Repetir anidadas.
+- Ancho N : Indica que la imagen ser´a de tama˜no N × N.
+- Color de fondo Color: Indica el color de fondo que tendr´a la imagen, es decir, si un bloque no es pintado entonces ser´a de este color. El formato que sigue Color se indica mas adelante.
+
+Posterior a estos habra una lınea en blanco y luego seguiran las instrucciones, las cuales pueden ser cualquier combinaci´on de las siguientes:
+- Izquierda: El jugador debe girar en 90° a la izquierda.
+- Derecha: El jugador debe girar en 90° a la derecha.
+- Avanzar N : El jugador debe avanzar N cuadros en la direccion en la que esta mirando. En caso de que no se entregue un numero, el jugador deber´a avanzar 1 bloque.
+- Pintar Color: El jugador debe pintar el bloque en el que se encuentra de color Color. El formato que sigue Color se indica m´as adelante.
+- Repetir N veces { Instrucciones }: El jugador debe repetir las instrucciones indicadas en Instrucciones N veces. Las instrucciones pueden ser cualquiera de las anteriormente nombradas a excepci´on de Ancho y Color de fondo. Esto significa que pueden haber instrucciones de Repetir anidadas.
 Cuando un comando requiera de un Color como par´ametro, este podr´a recibir uno de los
 siguientes valores:
 Rojo: Deber´a pintar de color rojo, escribiendo en la matriz de memoria la tupla (255,0,0).
