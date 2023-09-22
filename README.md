@@ -106,20 +106,27 @@ Para producir las im´agenes pueden utilizar el c´odigo del siguiente GitHub Gi
 
 #### 3.1.1. Ejemplo 1
 
-Code 3: Ejemplo 1
-1 Ancho 10
-2 Color de fondo Blanco
-3
-4 Avanzar Derecha Avanzar
-5 Repetir 4 veces {
-6 Repetir 8 veces { Pintar Negro Avanzar }
-7 Derecha Derecha Avanzar Derecha
-8 }
+<p align="center">Code 3: Ejemplo 1</p>
+
+~~~
+Ancho 10
+Color de fondo Blanco
+
+Avanzar Derecha Avanzar
+Repetir 4 veces {
+Repetir 8 veces { Pintar Negro Avanzar }
+Derecha Derecha Avanzar Derecha
+}
+~~~
 Code 4: errores.txt
+~~~
 1 No hay errores!
+~~~
 Figura 1: pixelart.png
+
 3.1.2. Ejemplo 2
 Code 5: Ejemplo 2
+~~~
 1 Ancho 3
 2 Color de fondo RGB(0,0,0)
 3
@@ -128,12 +135,16 @@ Code 5: Ejemplo 2
 6 Pintar Azul Avanzar 2 Derecha
 7 Pintar Blanco Avanzar Derecha Avanzar
 8 Pintar RGB(0,255,255)
+~~~
 Code 6: errores.txt
+~~~
 1 No hay errores!
+~~~
 Figura 2: pixelart.png
-4
+
 3.1.3. Ejemplo 3
 Code 7: Ejemplo 3
+~~~
 1 Ancho 3
 2 Color de fondo Negro
 3
@@ -141,26 +152,28 @@ Code 7: Ejemplo 3
 5 Pintar RGB(255,0,0) Avanzar Derecha 1 Avanzar
 6 }
 7 Pintar RGB(255,0,0)
+~~~
 Code 8: errores.txt
+~~~
 1 4 Repetir 2 {
 2 5 Pintar RGB(255,0,0) Avanzar Derecha 1 Avanzar
-5
-4. Sobre Entrega
-Se deber´a entregar un programa llamado pixelart.py.
-Los ayudantes correctores pueden realizar descuentos en caso de que el c´odigo se encuentre
-muy desordenado.
-Las funciones implementadas deben ser comentadas de la siguiente forma. SE HARAN´
-DESCUENTOS POR FUNCION NO COMENTADA ´
-1 ’’’
-2 Descripcion de la funcion
-3
-4 Parametros:
-5 a (int): Descripcion del parametro a
-6 b (int): Descripcion del parametro b
-7
-8 Retorno:
-9 c (str): Descripcion del parametro c
-10 ’’’
+~~~
+
+## 4. Sobre Entrega
+
+Se deber´a entregar un programa llamado pixelart.py. Los ayudantes correctores pueden realizar descuentos en caso de que el c´odigo se encuentre muy desordenado. Las funciones implementadas deben ser comentadas de la siguiente forma. SE HARAN DESCUENTOS POR FUNCION NO COMENTADA
+~~~
+’’’
+Descripcion de la funcion
+
+Parametros:
+a (int): Descripcion del parametro a
+b (int): Descripcion del parametro b
+
+Retorno:
+c (str): Descripcion del parametro c
+’’’
+~~~
 Se debe trabajar de forma individual obligatoriamente.
 La entrega debe realizarse en .tar.gz y debe llevar el nombre:
 Tarea1LP RolAlumno.tar.gz
