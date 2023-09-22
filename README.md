@@ -29,8 +29,8 @@ Derecha Avanzar Derecha Derecha
 Es por lo anterior que este jugador le pidio a los alumnos de Lenguajes de Programacion que utilicen los contenidos del curso para crear un programa capaz de interpretar las instrucciones del sitio y producir una imagen del resultado.
 
 Para esta tarea se debe utilizar Python 3 y los siguientes paquetes:
--RegEx para las expresiones regulares de la tarea. Tareas que no utilicen RegEx no seran revisadas.
--NumPy y Pillow para convertir los resultados a im´agenes. El c´odigo para este proceso se les sera entregado.
+- [RegEx](https://docs.python.org/3/library/re.html) para las expresiones regulares de la tarea. **Tareas que no utilicen RegEx no seran revisadas**.
+- [NumPy](https://numpy.org) y [Pillow](https://python-pillow.org) para convertir los resultados a imagenes. El codigo para este proceso se les sera entregado.
 
 ## 2. Lenguaje PixelArt (LPA)
 
