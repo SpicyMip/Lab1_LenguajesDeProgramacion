@@ -125,7 +125,7 @@ Derecha Derecha Avanzar Derecha
 <p align="center">Figura 1: pixelart.png</p>
 
 
-3.1.2. Ejemplo 2
+#### 3.1.2. Ejemplo 2
 
 <p align="center">Code 5: Ejemplo 2</p>
 
@@ -149,7 +149,7 @@ Derecha Derecha Avanzar Derecha
 <p align="center">Figura 2: pixelart.png</p>
 
 
-3.1.3. Ejemplo 3
+#### 3.1.3. Ejemplo 3
 <p align="center">Code 7: Ejemplo 3</p>
 
 
