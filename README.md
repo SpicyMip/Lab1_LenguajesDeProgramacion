@@ -26,14 +26,14 @@ Derecha Avanzar Derecha Derecha
 }
 ~~~
 
-Es por lo anterior que este jugador le pidi´o a los alumnos de Lenguajes de Programacion que utilicen los contenidos del curso para crear un programa capaz de interpretar las instrucciones del sitio y producir una imagen del resultado.
+Es por lo anterior que este jugador le pidio a los alumnos de Lenguajes de Programacion que utilicen los contenidos del curso para crear un programa capaz de interpretar las instrucciones del sitio y producir una imagen del resultado.
+
 Para esta tarea se debe utilizar Python 3 y los siguientes paquetes:
-RegEx para las expresiones regulares de la tarea. Tareas que no utilicen RegEx no
-ser´an revisadas.
-NumPy y Pillow para convertir los resultados a im´agenes. El c´odigo para este proceso se
-les ser´a entregado.
-1
-2. Lenguaje PixelArt (LPA)
+-RegEx para las expresiones regulares de la tarea. Tareas que no utilicen RegEx no seran revisadas.
+-NumPy y Pillow para convertir los resultados a im´agenes. El c´odigo para este proceso se les sera entregado.
+
+## 2. Lenguaje PixelArt (LPA)
+
 2.1. Acerca de LPA
 El Lenguaje PixelArt es un nuevo lenguaje interactivo que permite a un jugador, mediante
 una secuencia de instrucciones, producir uno de los pixelarts del sitio. Siempre se asume que el
