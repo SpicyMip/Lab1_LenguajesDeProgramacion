@@ -1,12 +1,8 @@
-# Tarea 1 Lenguajes de programacion 2022-1
-INF-253 Lenguajes de Programaci´on
-Tarea 1: Python
-19 de agosto de 2022
-1. Pixelart
-Un jugador de Minecraft amante del pixelart, un d´ıa buscando creaciones de otros jugadores,
-se encontr´o con un sitio web que aseguraba tener dise˜nos que nunca antes hab´ıa visto, con instrucciones muy detalladas de como construirlos; sin embargo, este sitio no contaba con im´agenes
-para saber como se ven los resultados de seguir esas instrucciones!
-Code 1: Ejemplo de instrucciones
+# INF-253 Lenguajes de Programación
+Tarea 1: Python  19 de agosto de 2022
+# 1. Pixelart
+Un jugador de Minecraft amante del pixelart, un dıa buscando creaciones de otros jugadores, se encontro con un sitio web que aseguraba tener diseños que nunca antes habıa visto, con instrucciones muy detalladas de como construirlos; sin embargo, este sitio no contaba con imagenes para saber como se ven los resultados de seguir esas instrucciones!
+# Code 1: Ejemplo de instrucciones
 1 Ancho 8
 2 Color de fondo RGB(13,181,13)
 3
