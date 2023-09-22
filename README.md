@@ -24,6 +24,7 @@ Un jugador de Minecraft amante del pixelart, un dıa buscando creaciones de otro
 19 Pintar Negro Derecha Avanzar
 20 Derecha Avanzar Derecha Derecha
 21 }
+
 Es por lo anterior que este jugador le pidi´o a los alumnos de Lenguajes de Programaci´on que
 utilicen los contenidos del curso para crear un programa capaz de interpretar las instrucciones
 del sitio y producir una imagen del resultado.
